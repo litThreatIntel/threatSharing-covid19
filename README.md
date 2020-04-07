@@ -19,7 +19,7 @@ Use Information:
   * \*graylog*: IOCs exported compatible with Graylog lookup searching
     * Fields Enclosed by: |
     * Fields Separation by: ;
-  * \*splunk*: IOCs exported compatible with Graylog lookup searching
+  * \*splunk*: IOCs exported compatible with Splunk lookup searching (can use it MISP Feed also)
     * Fields Enclosed by: "
     * Fields Separation by: ,
     
