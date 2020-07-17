@@ -27,9 +27,10 @@ Use Information:
   * \*vulnerabilities*: CVE-IDs exploited detected on campaigns
     * Headers Graylog: |CVE|;|hit|
     * Headers Splunk: "CVE_dna","CVE","hit","CVE_Category","CVE_Comment","CVE_Source","CVE_Date"
-  * \*hostname|ip-src|ip-dst|md5|sha1|sha256*: IOCs detected on campaigns
+  * \*hostname|ip-src|ip-dst|md5|sha1|sha256|imphash*: IOCs detected on campaigns
     * Headers Graylog: |IOC|;|hit|
     * Headers Splunk: "IOC_dna","IOC","hit","IOC_Type","IOC_Category","IOC_Comment","IOC_Source"
+  * \*json-misp*: Full Context MISP Json Format (Events and Attributes)
     
 * Lists by IOC Trustworthiness:
   * \*graylist*: Suspicious IOC. 
